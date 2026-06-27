@@ -1,8 +1,31 @@
-html{
+html {
     font-size: 22px;
 }
 body {
-   
     background-color: white;
     color: black;
+}
+pre {
+    font-family: monospace;
+    font-size: 0.6rem;
+    line-height: 1.2;
+    overflow-x: auto;
+}
+main {
+    max-width: 700px;
+    padding: 1rem;
+}
+.kniha {
+    margin-bottom: 3rem;
+}
+.kniha h2 {
+    font-size: 1rem;
+    font-weight: normal;
+    padding-bottom: 0.2rem;
+    margin-bottom: 0.8rem;
+}
+.kniha p {
+    font-size: 0.8rem;
+    line-height: 1.6;
+    margin-bottom: 0.6rem;
 }
